@@ -24,14 +24,39 @@
           question: "Michael Myer's mask in Halloween is acutally a slightly altered mask of which other famous icon?",
           answerList: ["Captain Kirk", "Michael Jackson", "Superman"],
           answer: 0
-        }
+        },
+        {
+          question: "Who almost played the Terminator but James Cameron thought this person was too pleasant?",
+          answerList: ["Sylvester Stallone", "Tom Hanks", "O.J. Simpson"],
+          answer: 2
+        },
+        {
+          question: "The sound of the velociraptors communicating with each other in Jurassic Park is actually the sound of what?",
+          answerList: ["Elephants communicating", "Tortoises mating", "Lions roaring"],
+          answer: 1
+        },
+        {
+          question: "What is interesting about the scene in Pulp Fiction where Vincent stabs a needle into Mia's heart?",
+          answerList: ["Scene was shot in reverse", "He actually stabs her", "Was originally the goriest scene ever filmed!"],
+          answer: 0
+        },
+        {
+          question: "In Gone With the Wind, how did they create the burning-of-Atlanta scene?",
+          answerList: ["First use of CGI", "Burned down old sets", "Set fire to abandoned buildings in Atlanta"],
+          answer: 1
+        },
+        {
+          question: "Which two movies were originally supposed to be the same movie?",
+          answerList: ["Star Wars/Empire Strikes Back", "Die Hard/Back to the Future", "Poltergeist/E.T."],
+          answer: 2
+        },
 ]; 
 
-var gifArray = ['question1', 'question2', 'question3', 'question4', 'question5'];
+var gifArray = ['question1', 'question2', 'question3', 'question4', 'question5', 'question6', 'question7', 'question8', 'question9','question10'];
 var currentQuestion;
 var correctAnswer;
 var incorrectAnswer;
-var unanswered;
+var unanswered = 0;
 var seconds;
 var time;
 var answered;
@@ -132,10 +157,10 @@ function answerPage() {
     }
 
     if(currentQuestion === (triviaQuestions.length - 1)) {
-        setTimeout(scoreboard, 5000)
+        setTimeout(scoreboard, 3000)
     } else {
         currentQuestion ++;
-        setTimeout(newQuestion, 5000);
+        setTimeout(newQuestion, 3000);
     }
 }
 
