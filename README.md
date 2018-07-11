@@ -10,6 +10,7 @@ MOVIE TRIVIA
 6. Learn Movie Trivia!
 
 ## Screen shot
+<img width="1256" alt="screen shot 2018-07-10 at 11 13 01 pm" src="https://user-images.githubusercontent.com/33463643/42550440-54e639e4-8497-11e8-92aa-23f022e064ac.png">
 
 ## Technologies used
  - Google Fonts
